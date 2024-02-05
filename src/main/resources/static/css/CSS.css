@@ -1,0 +1,82 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 5, 2024, 11:27:03 AM
+    Author     : jorge
+*/
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'one piece' ,sans-serif;
+    padding: 90px 20px 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #D70000; /* Rojo */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width:700;
+    margin: 0 auto;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    background-color: #62C3F8; /* Azul Cielo */
+}
+
+.nav-menu-link {
+    font-size: 18px;
+    line-height: 90px;
+    width: max-content;
+}
+
+.nav-menu-item:hover {
+    background-color: #2E62A3; /* Azul */
+    transition: 0.5s;
+}
+
+.aside {
+    position: fixed;
+    top: 20%;
+    left: 0;
+    width: 20%;
+    height: 75%;
+    background-color: #62C3F8; /* Azul Cielo */
+}
+
+.section {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    width: 80%;
+    height: 75%;
+    background-color: #FFFFFF; /* Blanco */
+    overflow-y: scroll;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    background-color: #000000; /* Negro */
+    text-align: center;
+    color: #FFFFFF; /* Blanco */
+}
